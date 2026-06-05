@@ -1,0 +1,7 @@
+# EDICION DE MENU
+.menu li a{
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  display: black
+  }
