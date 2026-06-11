@@ -9,5 +9,8 @@ body {
 font-family: arial, helvetica, sans-serif;
 }
 .container {
+width: 1200px;
+        margin: auto;
+           }
 
 
