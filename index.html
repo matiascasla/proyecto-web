@@ -15,7 +15,6 @@
         margin: auto;
         border: 1px solid lightblue;
            }
-    </style>
   </head>
   <body>
     <div id="container">
@@ -29,6 +28,51 @@
     <li><span></span></li>
     <li><a href="#" class="unique">nosotros</a></li>
       </style>
+    <style>
+        /* Elimina márgenes por defecto y estilos de lista */
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;          /* Activa el diseño flexible */
+            background-color: #333; /* Color de fondo del menú */
+        }
+
+        /* Estilo para cada ítem del menú */
+        nav li {
+            flex: auto;             /* Distribuye el espacio de forma equitativa */
+        }
+
+        /* Estilo para los enlaces */
+        nav a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;  /* Quita el subrayado */
+            font-family: sans-serif;
+        }
+
+        /* Cambio de color al pasar el mouse (efecto hover) */
+        nav a:hover {
+            background-color: #111;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+</body>
+</html>
+o
     </nav>
   </ul>
 </div
