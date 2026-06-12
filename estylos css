@@ -19,6 +19,38 @@ background: linear-gradient (
 rgba(203,18,133,1)0%,
 rgba(80,49,145,1)70%,
 );
+.menu {
+position: absolute
+style>
+        /* Elimina márgenes por defecto y estilos de lista */
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;          /* Activa el diseño flexible */
+            background-color: #333; /* Color de fondo del menú */
+        }
+
+        /* Estilo para cada ítem del menú */
+        nav li {
+            flex: auto;             /* Distribuye el espacio de forma equitativa */
+        }
+
+        /* Estilo para los enlaces */
+        nav a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;  /* Quita el subrayado */
+            font-family: sans-serif;
+        }
+
+        /* Cambio de color al pasar el mouse (efecto hover) */
+        nav a:hover {
+            background-color: #111;
+        }
+    </style>
 
 
 
